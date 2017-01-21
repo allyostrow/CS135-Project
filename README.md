@@ -42,7 +42,7 @@ Our hope is to scrape data from twitter and therefore be able to extract the con
 - How could we circumvent the Twitter API limits to collect the locations for a larger proportion of the tweets?
 
 
-## Instructions to run the code
+## Instructions to run the cod
 1. Install pyquery, gmplot, selenium, geopy, and pillow
 
 2. Download chromedriver
@@ -67,7 +67,7 @@ In the CS135-get-old-tweets repository:
 - python Exporter.py --querysearch "makeamericagreatagain" --since 2016-11-01 --until 2016-11-02 --filename “Trump_Nov_1.csv”
   - change the dates and filename to get a number of days of that month
 
-In the roxannecorbeil-project repository:
+In the CS135-Project repository:
 - python3 getloc.py "data/Hil_Nov_1.csv"
   - change the filename until you have produce .json files for each .csv files
 - python3 viz.py
