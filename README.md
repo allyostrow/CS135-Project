@@ -1,13 +1,11 @@
 # Final Project Proposal
-We will be generating several animated maps based on the quantity of Hillary Clinton tweets and Donald Trump tweets in locations across the country (or specifically swing states depending on how our data turns out). Color will vary depending on the candidate and brightness will vary with quantity of tweets. These maps would be distinguished by time frame. One map would span the night of the election, another would span the 6 months preceding the election, and another a year before the election. We will be creating filters that we feel relate to these candidates or stances held by these candidates.
+We will be generating several animated maps based on the quantity of Hillary Clinton tweets and Donald Trump tweets in locations across the country. The color and the intensity of the color will vary with quantity of tweets. These maps are to be distinguished by time frame. One animated map spans the year before the election another spans the first week of November. We use the hashtags #MakeAmericaGreatAgain and #ImWithHer to indicate support for Trump and Clinton respectively.
 
-In terms of what we find interesting, we hope to do some sort of political analysis based on public opinion. This is especially considering the fact that the election result was such a surprise. This structure can ideally be used to analyze other historical elections, or the change of public awareness of any issue over time.
+In terms of what we find interesting, we hope to do some sort of political analysis based on public opinion. This is especially significant to us considering the fact that the election result was such a surprise. This structure can ideally be used to analyze other historical elections, or to track the change of public sentiment with regards to any issue over time.
 
 ## Data Plan
 Our hope is to scrape data from twitter and therefore be able to extract the content and location of tweets from a specific historical time period.
 
-## Implementation Plan
-We will start with some of the concepts from our Twitter and Word Clouds Lab and our Purple America lab, but will be using different code. For example, we are extracting data from Twitter in a different way (we are scraping data from Twitter). Additionally, we are using an animation of density patterns rather than the static and rigid density in the Purple America lab. We will also be using heat maps.
 
 ### External Libraries
 - CS135-get-old-tweets
@@ -38,7 +36,7 @@ We will start with some of the concepts from our Twitter and Word Clouds Lab and
 
 *What open questions remain*
 - Is our sample size large enough to do a true, accurate sentiment analysis (<5000 tweets and only using the slogans as filters)?
--
+
 
 
 ## Instructions to run the code
