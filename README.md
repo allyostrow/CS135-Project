@@ -42,7 +42,7 @@ Our hope is to scrape data from twitter and therefore be able to extract the con
 - How could we circumvent the Twitter API limits to collect the locations for a larger proportion of the tweets?
 
 
-## Instructions to run the cod
+## Instructions to run the code
 1. Install pyquery, gmplot, selenium, geopy, and pillow
 
 2. Download chromedriver
