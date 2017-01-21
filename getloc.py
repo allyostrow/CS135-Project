@@ -27,12 +27,8 @@ def loc_to_coord(codes):
     def adfilter(codes):
         return re.findall("""[a-zA-Z]+, [A-Z]{2}""", ";".join(codes))
 
-<<<<<<< HEAD
-    api_key = "AIzaSyBWfetf-Xp6Whx1rwcAXj-gTGRvTQ5NoDo"
-
-=======
     api_key = "AIzaSyCxQCjOrHFAf7T-W3vtUYqWkgSFkvMjxN4"
->>>>>>> a436263c14147494bca5847f3e56a34c18739f0b
+
     g = geocoders.GoogleV3(api_key = api_key)
     coords = {"lat":[], "long":[]}
     for code in adfilter(codes):
